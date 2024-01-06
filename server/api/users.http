@@ -1,0 +1,20 @@
+GET http://localhost:3000/users HTTP/1.1
+
+###
+
+POST http://localhost:3000/users HTTP/1.1
+Content-Type: application/json
+
+# {
+#   "name": "Forbidden Smooth Coke",
+#   "photo_url": "https://pbs.twimg.com/profile_images/1296296566937001990/345_6J9E_400x400.jpg"
+# }
+
+# {
+#   "name": "Oz_yarimasu",
+#   "photo_url": "https://pbs.twimg.com/profile_images/1638839374677970945/diTuFkiG_400x400.jpg"
+# }
+
+{
+  "name": "bot"
+}
